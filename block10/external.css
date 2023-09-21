@@ -1,0 +1,112 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+}
+
+.square1 {
+    width: 30%;
+    height: 50px;
+    background-color: lightseagreen;
+}
+
+.square2 {
+    width: 100%;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.square3 {
+    width: 100%;
+    height: 10px;
+    background-color: lightgreen;
+}
+
+.sun1 {
+    position: absolute;
+    top: 1rem;
+    left: 4rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.sun2 {
+    position: absolute;
+    top: 5rem;
+    left: 4rem;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.moon1 {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: palevioletred;
+}
+
+.moon2 {
+    position: absolute;
+    top: 3.5rem;
+    left: 2rem;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: palevioletred;
+}
+
+.moon3 {
+    position: absolute;
+    top: 1.5rem;
+    left: 11rem;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: palevioletred;
+}
+
+.moon4 {
+    position: absolute;
+    top: 3rem;
+    left: 7.7rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: palevioletred;
+}
+
+.triangle1 {
+    position: absolute;
+    top: 2.9rem;
+    left: 15rem;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 120px solid green;
+}
+
+.triangle2 {
+    position: absolute;
+    top: 4.2rem;
+    left: 19rem;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid lightgreen;
+}
+
+.people {
+    color:lightblue;
+    position: absolute;
+    top: 9.3em;
+    left: 1em;
+}
