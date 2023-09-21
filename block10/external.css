@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     padding: 3px;
+    min-width: 480px;
+    max-width: 480px;
 }
 
 .square1 {
